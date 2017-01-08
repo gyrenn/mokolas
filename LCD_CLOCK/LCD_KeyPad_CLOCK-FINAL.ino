@@ -1,9 +1,9 @@
 //===[ LIBRARIES BGN ]===============================================================================
-#include <Wire.h>;		              // I2C
+#include <Wire.h>;                  // I2C
 #include <LiquidCrystal.h>          // LDC display
-#include "RTClib.h";		            // Tiny Real Time Clock
-#include <SFE_BMP180.h>;	          // Barometer
-#include <dht11.h>;		              // Higrometer
+#include "RTClib.h";                // Tiny Real Time Clock
+#include <SFE_BMP180.h>;            // Barometer
+#include <dht11.h>;                 // Higrometer
 #include <OneWire.h>                // OneWire for DS18B20
 #include <DallasTemperature.h>      // DS18B20
 //===[ LIBRARIES END ]===============================================================================
