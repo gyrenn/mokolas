@@ -23,7 +23,6 @@ UsedLibrary="/home/matelakat/.eagle/lbr/adafruit.lbr"
 UsedLibrary="/home/matelakat/.eagle/lbr/advanced-test-technologies.lbr"
 UsedLibrary="/home/matelakat/.eagle/lbr/agilent-technologies.lbr"
 UsedLibrary="/home/matelakat/.eagle/lbr/allegro.lbr"
-UsedLibrary="/home/matelakat/.eagle/lbr/alps.lbr"
 UsedLibrary="/home/matelakat/.eagle/lbr/altera-cyclone-II.lbr"
 UsedLibrary="/home/matelakat/.eagle/lbr/altera-cyclone-III.lbr"
 UsedLibrary="/home/matelakat/.eagle/lbr/altera-stratix-iv.lbr"
@@ -367,11 +366,10 @@ UsedLibrary="/home/matelakat/.eagle/lbr/elektro/e-steckverbinder.lbr"
 UsedLibrary="/home/matelakat/.eagle/lbr/elektro/e-stromversorgungselemente.lbr"
 UsedLibrary="/home/matelakat/.eagle/lbr/elektro/e-symbole.lbr"
 UsedLibrary="/home/matelakat/.eagle/lbr/elektro/eib-busch-jaeger.lbr"
-UsedLibrary="/data/matelakat/src/chiengineer-Eagle-Libraries/Knobs-Buttons-Switches/alps.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="0 20 1917 1077"
+Loc="0 20 1917 1197"
 State=2
 Number=1
 File="blinker.sch"
@@ -419,13 +417,13 @@ Sheet="1"
 
 [Win_2]
 Type="Control Panel"
-Loc="0 20 1917 1077"
+Loc="0 0 1917 1177"
 State=2
 Number=0
 
 [Win_3]
 Type="Board Editor"
-Loc="0 20 1917 1077"
+Loc="0 20 1917 1197"
 State=2
 Number=2
 File="blinker.brd"
@@ -470,7 +468,7 @@ PadsSameType=0
 Layer=1
 
 [Desktop]
-Screen="1920 1080"
+Screen="1920 1200"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
