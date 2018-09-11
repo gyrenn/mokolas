@@ -172,10 +172,15 @@ void setup() {
   oled.begin(&Adafruit128x64, OLED_I2C_ADDRESS);
   oled.setFont(System5x7);
   oled.println("=== STARTING ===");
+  
   radio.begin();
   radio.openReadingPipe(0, pipeAddress);
   //radio.setPALevel(RF24_PA_MIN);
   radio.setPALevel(RF24_PA_MAX);
+  //radio.setPayloadSize(32); // max 32
+  radio.setDataRate(RF24_1MBPS);
+  radio.setCRCLength(RF24_CRC_8);
+  
   radio.startListening();
   oled.println("=== RADIO STARTING ===");
 
